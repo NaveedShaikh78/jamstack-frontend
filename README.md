@@ -11,5 +11,5 @@ This is very simple website created using Next+React frontend with threed pages.
 The heading can be cahnged through CMS with H1, H2.. format and aragraph using CMS.
 ## Preview
 
-[![Open in New Tab]](https://jamstack-frontend-green.vercel.app)
+[Open in New Tab](https://jamstack-frontend-green.vercel.app){:target="_blank"}
 
