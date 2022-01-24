@@ -7,7 +7,7 @@ This is very simple website created using Next+React frontend with threed pages.
 2. Contact page :- Contact page is consits of user name and password. when the submit
   button is pressed. the call is goes to serverless function created in Next.js
 
-3. Privacy- policy :- Privacy page is consits of reach text module created using Draft.js [![Draft.js](https://draftjs.org/img/draftjs-logo.svg)](https://draftjs.org/) whith heading on top.
+3. Privacy- policy :- Privacy page is consits of reach text module created using Draft.js [Draft.js](https://draftjs.org/){:target="_blank"} whith heading on top.
 The heading can be cahnged through CMS with H1, H2.. format and aragraph using CMS.
 ## Preview
 
