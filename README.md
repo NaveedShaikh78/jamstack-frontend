@@ -17,4 +17,4 @@ The heading can be cahnged through CMS with H1, H2.. format and aragraph using C
 ## Deployment
 The web site is deployed using vercel.
 
-The content of the web site manged by the Prismic CMS using graphql.
+The content of the web site is manged by the Prismic CMS using graphql.

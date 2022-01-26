@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Layouts Example</title>
+        <title>JAMStack Web site</title>
       </Head>
       <main className={styles.main}>{children}</main>
     </>
