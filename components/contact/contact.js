@@ -14,7 +14,7 @@ export default class ContactUs extends React.Component {
     }
     handleSubmit(e) {
         submitUserData(this.state).then(res => {
-            alert(`Hi ${res.data.name}, your request has been sent we will inform you shortly`);
+            alert(`Your request has been sent successfully, we will inform you shortly`);
         });
         e.preventDefault();
     }
@@ -28,14 +28,15 @@ export default class ContactUs extends React.Component {
     }
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} >
+                {/*  <form action="https://formspree.io/f/xrgjpgbe" method="POST" > */}
                 <div>
                     <label>  Name: </label>
-                    <input type="text" value={this.state.name} onChange={this.handleNameChange} />
+                    <input type="text" name="username" value={this.state.name} onChange={this.handleNameChange} />
                 </div> <p></p>
                 <div>
                     <label>  e-mail: </label>
-                    <input type="text" value={this.state.email} onChange={this.handleEmailChange} />
+                    <input type="text" name="useremail" value={this.state.email} onChange={this.handleEmailChange} />
                 </div>
                 <p>
                     <input type="submit" value="Submit" />
