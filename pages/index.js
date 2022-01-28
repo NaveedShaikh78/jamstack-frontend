@@ -16,9 +16,7 @@ export default function Index({ heroes }) {
       <div className='container'>
         {
           heroes.map(hero => (
-            <div key={hero.node.id} className='hero-container'>
-              <Hero hero={hero}></Hero>
-            </div>
+            <Hero hero={hero} key={hero.node.id}></Hero>
           ))}
       </div>
     </section>
